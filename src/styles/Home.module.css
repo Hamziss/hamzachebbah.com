@@ -284,6 +284,31 @@
     width: 100%;
 }
 
+.aboutme>p>a {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    color: var(--main-brand-color);
+}
+
+.aboutme>p>a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--main-brand-color);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.aboutme>p>a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 @media screen and (max-width: 1024px) {
     .animationContainer {
         top: 500px;

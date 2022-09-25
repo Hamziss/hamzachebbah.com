@@ -18,6 +18,7 @@ const ProjectImage = ({ item }: { item: IprojectItem }) => (
 			<a target="_blank" rel="noreferrer" href={item.link}>
 				<Image
 					src={item.image}
+					placeholder="blur"					
 					layout="fill"
 					objectFit="fill"
 					className={classes.projectImage}
@@ -25,7 +26,7 @@ const ProjectImage = ({ item }: { item: IprojectItem }) => (
 			</a>
 			{item.itemImages?.map((image: IitemImages) => (
 				<div key={uuid.v4()} className={classes[`${image.imageTitle}`]}>
-					<Image src={image.url} layout="fill" objectFit="fill" />
+					<Image placeholder="blur" src={image.url} layout="fill" objectFit="fill" />
 				</div>
 			))}
 		</div>

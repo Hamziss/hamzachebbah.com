@@ -91,12 +91,12 @@ const NavBar = () => {
 						</Link>
 					</li>
 					<li>
-						<Link href="/Services">
+						<Link href="/about">
 							<a
-								data-menu-name="Services"
+								data-menu-name="About"
 								className={cx(classes.hovereffect, classes.scroll)}
 							>
-								Services
+								About
 							</a>
 						</Link>
 					</li>

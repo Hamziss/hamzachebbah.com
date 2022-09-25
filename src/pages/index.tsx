@@ -77,10 +77,13 @@ const Home: NextPage = () => (
 							As a full-stack developper im great at (&gt; 1 years of
 							experience) : <span className={classes.yellowtext}>ReactJS</span>
 							,&nbsp;
-							<span className={classes.yellowtext}>ExpressJS</span> ,&nbsp;
-							<span className={classes.yellowtext}>NextJS</span> ,&nbsp;
-							<span className={classes.yellowtext}>MongoDB</span>&nbsp; and{" "}
-							<span className={classes.yellowtext}>Typescript</span>.
+							<span className={classes.yellowtext}>
+		<a href="https://stackoverflow.com" target="_blank" rel="noreferrer">
+						
+						ExpressJS</a></span> ,&nbsp;
+							<span className={classes.yellowtext}><a href="https://stackoverflow.com" target="_blank" rel="noreferrer">NextJS</a></span> ,&nbsp;
+							<span className={classes.yellowtext}><a href="https://stackoverflow.com" target="_blank" rel="noreferrer">MongoDB</a></span>&nbsp; and{" "}
+							<span className={classes.yellowtext}><a href="https://stackoverflow.com" target="_blank" rel="noreferrer">Typescript</a></span>.
 						</p>
 						<br />
 						<p>
