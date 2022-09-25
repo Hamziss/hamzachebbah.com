@@ -1,12 +1,16 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable import/extensions */
 
 import type { NextPage } from "next"
+import Image from "next/image"
 import Link from "next/link"
 import Script from "next/script"
+import hamza from "public/images/about/HamzaMain.png"
+import lowerSquare from "public/images/botSquare.png"
+import upperSquare from "public/images/upSquare.png"
 import AnimatedHead from "src/components/AnimatedHead"
 import ContactSection from "src/components/ContactSection"
 import ProjectItems from "src/components/ProjectItems"
-
 import { CODING_PASSION } from "src/util/constants/home"
 import SphereCanvas from "../components/SphereCanvas"
 
@@ -23,7 +27,7 @@ const Home: NextPage = () => (
 			plane
 		</h1>
 		<button type="button" className={`${classes.customBtn} ${classes.heroBtn}`}>
-			<Link href="/">Learn More</Link>
+			<Link href="/about">About Me</Link>
 		</button>
 		<section className={classes.showcase}>
 			<div className={classes.videoContainer}>
@@ -49,21 +53,31 @@ const Home: NextPage = () => (
 						<br />
 						<p>{CODING_PASSION}</p>
 						<br />
-						<button
-							type="button"
-							className={`${classes.customBtn} ${classes.heroBtn}`}
-						>
-							<Link href="/">Learn More</Link>
-						</button>
+
 						<br />
 					</div>
-					<div className={classes.image}>
+					<Link href="/about">
 						{/* <img
 							src="assets/images/undraw_coding_re_iv62.svg"
 							style={{ borderRadius: "5px", width: "100%" }}
 							alt="id"
 						/> */}
-					</div>
+						<a className={classes.ImageContainer}>
+							<Image
+								src={hamza}
+								layout="fill"
+								className={classes.hamza}
+								objectFit="cover"
+								placeholder="blur"
+							/>
+							<div className={classes.bottomSquare}>
+								<Image src={lowerSquare} />
+							</div>
+							<div className={classes.upperSquare}>
+								<Image src={upperSquare} />
+							</div>
+						</a>
+					</Link>
 				</div>
 			</section>
 			<section id="skills" className={classes.skillscontainer}>
