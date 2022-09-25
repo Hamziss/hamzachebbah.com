@@ -284,14 +284,14 @@
     width: 100%;
 }
 
-.aboutme>p>a {
+.skilltext a {
     display: inline-block;
     position: relative;
     cursor: pointer;
     color: var(--main-brand-color);
 }
 
-.aboutme>p>a:after {
+.skilltext a:after {
     content: "";
     position: absolute;
     width: 100%;
@@ -304,7 +304,7 @@
     transition: transform 0.25s ease-out;
 }
 
-.aboutme>p>a:hover:after {
+.skilltext a:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }

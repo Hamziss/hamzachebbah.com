@@ -1,5 +1,4 @@
 import { NextPage } from "next"
-import dynamic from "next/dynamic"
 import Image from "next/image"
 import docker from "public/images/techs/docker.png"
 import express from "public/images/techs/express.png"
@@ -10,24 +9,13 @@ import tailwind from "public/images/techs/tailwind.png"
 import trpc from "public/images/techs/trpc.png"
 import ts from "public/images/techs/ts.png"
 import { Parallax } from "react-parallax"
+import { Cursor, Typewriter } from "react-simple-typewriter"
 import ContactSection from "src/components/ContactSection"
 import lowerSquare from "../../public/images/about/downSquare.png"
 import Hamza from "../../public/images/about/Hamza.png"
 import upperSquare from "../../public/images/about/upperSquare.png"
 import classes from "../styles/About.module.css"
 
-const TypeWriter = dynamic(
-	() => import("react-simple-typewriter").then(mod => mod.Typewriter),
-	{
-		ssr: false,
-	}
-)
-const Cursor = dynamic(
-	() => import("react-simple-typewriter").then(mod => mod.Cursor),
-	{
-		ssr: false,
-	}
-)
 const words = [
 	"who likes semicolon, honestly",
 	"it's not a bug it's a feature",
@@ -63,7 +51,7 @@ const AboutPage: NextPage = () => (
 					web.
 				</strong>
 				<div className={classes.typewriter}>
-					<TypeWriter typeSpeed={40} loop={0} words={words} />
+					<Typewriter typeSpeed={40} loop={0} words={words} />
 					<Cursor cursorColor="#ffc107" />
 				</div>
 				<div className={classes.aboutme}>

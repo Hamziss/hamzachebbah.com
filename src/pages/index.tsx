@@ -75,25 +75,103 @@ const Home: NextPage = () => (
 					<div className={classes.skilltext}>
 						<p>
 							As a full-stack developper im great at (&gt; 1 years of
-							experience) : <span className={classes.yellowtext}>ReactJS</span>
+							experience) :{" "}
+							<span className={classes.yellowtext}>
+								{" "}
+								<a
+									href="https://fr.reactjs.org/"
+									target="_blank"
+									rel="noreferrer"
+								>
+									ReactJS
+								</a>
+							</span>
 							,&nbsp;
 							<span className={classes.yellowtext}>
-		<a href="https://stackoverflow.com" target="_blank" rel="noreferrer">
-						
-						ExpressJS</a></span> ,&nbsp;
-							<span className={classes.yellowtext}><a href="https://stackoverflow.com" target="_blank" rel="noreferrer">NextJS</a></span> ,&nbsp;
-							<span className={classes.yellowtext}><a href="https://stackoverflow.com" target="_blank" rel="noreferrer">MongoDB</a></span>&nbsp; and{" "}
-							<span className={classes.yellowtext}><a href="https://stackoverflow.com" target="_blank" rel="noreferrer">Typescript</a></span>.
+								<a
+									href="https://expressjs.com/"
+									target="_blank"
+									rel="noreferrer"
+								>
+									ExpressJS
+								</a>
+							</span>{" "}
+							,&nbsp;
+							<span className={classes.yellowtext}>
+								<a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+									NextJS
+								</a>
+							</span>{" "}
+							,&nbsp;
+							<span className={classes.yellowtext}>
+								<a
+									href="https://www.mongodb.com/"
+									target="_blank"
+									rel="noreferrer"
+								>
+									MongoDB
+								</a>
+							</span>
+							&nbsp; and{" "}
+							<span className={classes.yellowtext}>
+								<a
+									href="https://www.typescriptlang.org/"
+									target="_blank"
+									rel="noreferrer"
+								>
+									Typescript
+								</a>
+							</span>
+							.
 						</p>
 						<br />
 						<p>
-							I also use some technologies for side projects / personnal time:
-							<span className={classes.yellowtext}>NestJS</span>,&nbsp;
-							<span className={classes.yellowtext}>tRPC</span>,&nbsp;
-							<span className={classes.yellowtext}>Docker</span>,&nbsp;
-							<span className={classes.yellowtext}>Redis</span>,&nbsp;{" "}
-							<span className={classes.yellowtext}>Socket.io</span>,&nbsp;
-							<span className={classes.yellowtext}>Prisma</span>.
+							I also use some technologies for side projects / personnal
+							time:&nbsp;
+							<span className={classes.yellowtext}>
+								<a href="https://nestjs.com/" target="_blank" rel="noreferrer">
+									NestJS
+								</a>
+							</span>
+							,&nbsp;
+							<span className={classes.yellowtext}>
+								<a href="https://trpc.io/" target="_blank" rel="noreferrer">
+									tRPC
+								</a>
+							</span>
+							,&nbsp;
+							<span className={classes.yellowtext}>
+								<a
+									href="https://www.docker.com/"
+									target="_blank"
+									rel="noreferrer"
+								>
+									Docker
+								</a>
+							</span>
+							,&nbsp;
+							<span className={classes.yellowtext}>
+								<a href="https://redis.io/" target="_blank" rel="noreferrer">
+									Redis
+								</a>
+							</span>
+							,&nbsp;{" "}
+							<span className={classes.yellowtext}>
+								<a href="https://socket.io/" target="_blank" rel="noreferrer">
+									Socket.io
+								</a>
+							</span>
+							,&nbsp;
+							<span className={classes.yellowtext}>
+								<a
+									href="https://www.prisma.io/"
+									target="_blank"
+									rel="noreferrer"
+								>
+									Prisma
+								</a>
+							</span>
+							.
 						</p>
 						<br />
 					</div>
