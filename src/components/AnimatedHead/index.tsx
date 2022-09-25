@@ -1,0 +1,111 @@
+import Image from "next/image"
+import classes from "../../styles/Home.module.css"
+
+const AnimatedHead = () => (
+	<div className={classes.animationWrapper}>
+		<div
+			data-w-id="ab4146b3-dcf5-c13a-bdab-b568429a6dcd"
+			className={classes.animationContainer}
+		>
+			<div className={classes.objectContainer}>
+				<div
+					data-w-id="a80ee896-20e1-3426-4dc7-30887098961c"
+					className={classes.object}
+				>
+					<div
+						data-w-id="495b8c7d-2b55-885d-ec81-d7182be19eab"
+						data-is-ix2-target="1"
+						data-animation-type="lottie"
+						data-src="https://uploads-ssl.webflow.com/61717fd08d472714903446f3/630c428ecd0330c7dda53c1c_computer.json"
+						data-loop="0"
+						data-direction="1"
+						data-autoplay="0"
+						data-renderer="svg"
+						data-default-duration="3.76"
+						data-duration="0"
+					/>
+				</div>
+				<div
+					data-w-id="06f18836-baa4-56cf-8bc8-7f18e80070ae"
+					className={classes.object}
+				>
+					<div
+						data-w-id="8cf0c9ca-8c21-a556-bf48-1d0644a72205"
+						data-is-ix2-target="1"
+						data-animation-type="lottie"
+						data-src="https://uploads-ssl.webflow.com/61717fd08d472714903446f3/630c475bd7b194f47b2c9a4c_cafe.json"
+						data-loop="0"
+						data-direction="1"
+						data-autoplay="0"
+						data-renderer="svg"
+						data-default-duration="3.76"
+						data-duration="0"
+					/>
+				</div>
+				<div
+					data-w-id="b8ebf56e-47b7-c0bb-6b0c-698ef52a1c30"
+					className={classes.object}
+				>
+					<div
+						data-w-id="af9e44ff-5c59-650a-2634-2511f773bb7b"
+						data-is-ix2-target="1"
+						data-animation-type="lottie"
+						data-src="https://uploads-ssl.webflow.com/61717fd08d472714903446f3/630c4b8297b6876c9ca59bf5_picture.json"
+						data-loop="0"
+						data-direction="1"
+						data-autoplay="0"
+						data-renderer="svg"
+						data-default-duration="3.76"
+						data-duration="0"
+					/>
+				</div>
+				<div
+					data-w-id="1c1dd9f5-b0fb-3df5-94cb-7cac3ef0787b"
+					className={classes.object}
+				>
+					<div
+						data-w-id="0905329c-9ba0-1987-6b85-2006a4152203"
+						data-is-ix2-target="1"
+						data-animation-type="lottie"
+						data-src="https://uploads-ssl.webflow.com/61717fd08d472714903446f3/630c4f92cf47ceac056dd0b0_headphone.json"
+						data-loop="0"
+						data-direction="1"
+						data-autoplay="0"
+						data-renderer="svg"
+						data-default-duration="3.76"
+						data-duration="0"
+					/>
+				</div>
+				<div
+					data-w-id="ffb313f5-4543-f5a1-b1ca-16c34acaa9d0"
+					className={classes.object}
+				>
+					<div
+						data-w-id="3c90a5a9-4e70-439a-adc1-7088d8c7064a"
+						data-is-ix2-target="1"
+						data-animation-type="lottie"
+						data-src="https://uploads-ssl.webflow.com/61717fd08d472714903446f3/630c49863a3ffa83bd1d2ddd_bulb.json"
+						data-loop="0"
+						data-direction="1"
+						data-autoplay="0"
+						data-renderer="svg"
+						data-default-duration="3.76"
+						data-duration="0"
+					/>
+				</div>
+			</div>
+			<div className={classes.headContainer}>
+				<Image
+					src="https://uploads-ssl.webflow.com/61717fd08d472714903446f3/630a7623cd03305a4f8b0e3f_head-yellow%20(6).png"
+					loading="lazy"
+					layout="fill"
+					objectFit="contain"
+					alt="greeck head"
+					className="image"
+				/>
+			</div>
+		</div>
+	</div>
+)
+
+export default AnimatedHead

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Integral CF";
+    src: local("Integral CF Demi Bold"), local("Integral-CF-Demi-Bold"), url("IntegralCF-DemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Now Display";
+    src: local("Helvetica Now Display Regular"), local("HelveticaNowDisplay-Regular"), url("HelveticaNowDisplay-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}

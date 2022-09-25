@@ -1,0 +1,250 @@
+.wrapper {
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 1400px;
+    width: 100%;
+    margin: 170px 0;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    color: #fff;
+    z-index: 1;
+}
+
+.headerContainer {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: min(2vw, 20px);
+    font-family: "Helvetica Now Display";
+    height: 56px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.link,
+.linkRepo {
+    position: relative;
+    text-decoration: none;
+    opacity: 0.8;
+    height: 17px;
+    width: 17px;
+}
+
+.link:hover,
+.linkRepo:hover {
+    opacity: 1;
+}
+
+.headerContainer>h3 {
+    font-weight: 600;
+    font-size: clamp(22px, 2.8vw, 40px);
+}
+
+.pContainer {
+    background: var(--main-brand-color);
+    border-radius: 6px;
+    padding: 20px;
+    font-family: "Helvetica Now Display";
+    font-size: clamp(16px, 1vw, 30px);
+}
+
+.techContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: min(2vw, 20px);
+    font-family: "Helvetica Now Display";
+    list-style: none;
+    padding: 0 0 0 12px;
+    font-size: clamp(12px, 1.1vw, 15px);
+    margin-top: 10px;
+}
+
+.techItem {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.techItem:hover {
+    opacity: 1;
+}
+
+.ImageContainer {
+    position: relative;
+    width: 50%;
+    height: 31vw;
+    max-width: 560px;
+    max-height: 386px;
+}
+
+.ImageContainer>a {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: 0;
+}
+
+.ImageContainer:after {
+    content: "";
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    background: rgba(255, 193, 7, 0.3);
+    position: absolute;
+}
+
+.ImageContainer:hover:after {
+    display: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.girafe {
+    position: absolute;
+    top: -48px;
+    right: -36px;
+    width: 55px;
+    height: 82px;
+    z-index: 2;
+}
+
+.dragon {
+    position: absolute;
+    bottom: -31px;
+    right: -35px;
+    width: 133px;
+    height: 114px;
+    z-index: 2;
+}
+
+.tree {
+    position: absolute;
+    bottom: -55px;
+    left: -78px;
+    width: 154px;
+    height: 207px;
+    z-index: 2;
+}
+
+.pen {
+    position: absolute;
+    top: -80px;
+    right: -60px;
+    width: 147px;
+    height: 161px;
+    z-index: 2;
+}
+
+.peinture {
+    position: absolute;
+    bottom: -9px;
+    right: -15px;
+    width: 44px;
+    height: 44px;
+    z-index: 2;
+}
+
+.chat {
+    position: absolute;
+    bottom: -32px;
+    left: -67px;
+    width: 154px;
+    height: 136px;
+    z-index: 2;
+}
+
+.laptop {
+    position: absolute;
+    top: -44px;
+    right: -52px;
+    width: 113px;
+    height: 106px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1024px) {
+    .chat {
+        bottom: -14px;
+        left: -35px;
+        width: 106px;
+        height: 86px;
+    }
+    .peinture {
+        top: -24px;
+        left: -22px;
+    }
+    .tree {
+        bottom: -29px;
+        left: -42px;
+        width: 87px;
+        height: 104px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .projectContainer {
+        align-items: center;
+        flex-direction: column !important;
+        margin: 65px 0;
+        gap: 28px;
+    }
+    .textContainer,
+    .ImageContainer {
+        transform: unset !important;
+        width: 100%;
+        text-align: left !important;
+    }
+    .ImageContainer {
+        height: 60vw;
+    }
+    .headerContainer {
+        justify-content: flex-start;
+        flex-direction: row !important;
+    }
+    .techContainer {
+        justify-content: flex-start !important;
+    }
+    .pen {
+        top: -38px;
+        right: -30px;
+        width: 93px;
+        height: 103px;
+    }
+    .chat {
+        bottom: -12px;
+        left: -20px;
+        width: 71px;
+        height: 62px;
+    }
+    .laptop {
+        top: -22px;
+        right: -14px;
+        width: 60px;
+        height: 58px;
+    }
+    .girafe {
+        display: none;
+    }
+}
