@@ -2,7 +2,7 @@ import type { AppProps } from "next/app"
 import Head from "next/head"
 import Footer from "src/components/Footer"
 import NavBar from "src/components/NavBar"
-import "../../public/fonts/webfont.css"
+
 import "../styles/globals.css"
 
 function MyApp({ Component, pageProps }: AppProps) {

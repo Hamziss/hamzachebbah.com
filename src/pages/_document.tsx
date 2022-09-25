@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-css-tags */
 /* eslint-disable @next/next/no-title-in-document-head */
 import { Head, Html, Main, NextScript } from "next/document"
 
@@ -14,6 +15,7 @@ export default function Document() {
 					type="image/x-icon"
 					href="/images/favicon.svg"
 				/>
+				<link href="/fonts/webfont.css" rel="stylesheet" />
 			</Head>
 			<body>
 				<Main />
