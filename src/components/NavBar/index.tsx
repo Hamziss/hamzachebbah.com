@@ -59,7 +59,7 @@ const NavBar = () => {
 							</div>
 						</button>
 					</li>
-					<li>
+					<li className={classes.logo}>
 						<Link href="/" className={classes["link-logo"]}>
 							<a>
 								<Image src={Logo} alt="logo" />
