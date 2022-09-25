@@ -418,7 +418,7 @@
         height: 394px;
     }
     .bgtext {
-        font-size: clamp(50px, 20vw, 100px);
+        font-size: clamp(35px, 15vw, 94px);
         top: 28px;
     }
 }

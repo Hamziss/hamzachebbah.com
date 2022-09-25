@@ -36,10 +36,10 @@ const AboutPage: NextPage = () => (
 					placeholder="blur"
 				/>
 				<div className={classes.bottomSquare}>
-					<Image src={lowerSquare} />
+					<Image placeholder="blur" src={lowerSquare} />
 				</div>
 				<div className={classes.upperSquare}>
-					<Image src={upperSquare} />
+					<Image placeholder="blur" src={upperSquare} />
 				</div>
 			</div>
 			<div className={classes.textSide}>
