@@ -76,7 +76,7 @@ export const optionsCanvas = {
 	textColour: "#FDBD28",
 	outlineColour: "#00000000",
 	reverse: true,
-	textFont: "Helvetica Now Display,sans-serif",
+	textFont: "Helvetica Now Display",
 	depth: 0.8,
 	zoom: 1.082,
 	textHeight: 9,
