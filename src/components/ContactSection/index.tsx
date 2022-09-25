@@ -5,7 +5,8 @@ import Snackbar from "@mui/material/Snackbar"
 import dynamic from "next/dynamic"
 import Image from "next/image"
 import email from "public/images/contact/Email.png"
-import { forwardRef, SyntheticEvent, useState } from "react"
+import { forwardRef, SyntheticEvent, useEffect, useState } from "react"
+
 import { CONTACT_PARAGRAPH } from "./constants"
 import classes from "./style.module.css"
 
@@ -15,9 +16,14 @@ const Alert = forwardRef<HTMLDivElement, AlertProps>((props, ref) => (
 	<MuiAlert elevation={6} ref={ref} variant="filled" {...props} />
 ))
 
+let velocity = 0
 const ContactSection = () => {
 	const [open, setOpen] = useState(false)
 	const [fireConfetti, setFireConfetti] = useState(false)
+
+	useEffect(() => {
+		window.innerWidth > 768 ? (velocity = 35) : (velocity = 20)
+	}, [])
 
 	const handleClose = (event?: SyntheticEvent | Event, reason?: string) => {
 		if (reason === "clickaway") {
@@ -44,6 +50,7 @@ const ContactSection = () => {
 					zIndex={1}
 					width="100%"
 					height="50%"
+					startVelocity={velocity}
 					style={{ maxHeight: "700px" }}
 					spread={120}
 					onDecay={() => setFireConfetti(false)}

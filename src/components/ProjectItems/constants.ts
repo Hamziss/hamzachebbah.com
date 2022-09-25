@@ -5,8 +5,10 @@ import drawilio from "public/images/Projects/drawilio.png"
 import girafe from "public/images/Projects/girafe.png"
 import KimerLite from "public/images/Projects/kimerLite.png"
 import Laptop from "public/images/Projects/Laptop.png"
+import panier from "public/images/Projects/panier.png"
 import peinture from "public/images/Projects/peinture.png"
 import pen from "public/images/Projects/pen.png"
+import redbox from "public/images/Projects/redbox.png"
 import timerrImage from "public/images/Projects/timerr.png"
 import tree from "public/images/Projects/tree.png"
 import trinity from "public/images/Projects/trinity.png"
@@ -154,7 +156,8 @@ export const Projects: IprojectItem[] = [
 	{
 		side: "inverse",
 		name: "Kimberlite",
-		description: "Kimberlite is a e-commerce website for selling shoes . ",
+		description:
+			"Kimberlite is an e-commerce website for selling shoes, with full admin features for managing products and website, intuitive design and fast load. ",
 		techStack: [
 			{
 				name: "ReactJS",
@@ -189,7 +192,17 @@ export const Projects: IprojectItem[] = [
 		],
 		image: KimerLite,
 		link: "https://kimberlite.herokuapp.com/",
+
 		linkRepo: "",
-		itemImages: [],
+		itemImages: [
+			{
+				url: redbox,
+				imageTitle: "redbox",
+			},
+			{
+				url: panier,
+				imageTitle: "panier",
+			},
+		],
 	},
 ]

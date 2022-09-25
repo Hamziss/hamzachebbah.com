@@ -184,6 +184,24 @@
     z-index: 2;
 }
 
+.panier {
+    position: absolute;
+    top: -51px;
+    right: -37px;
+    width: 97px;
+    height: 103px;
+    z-index: 2;
+}
+
+.redbox {
+    position: absolute;
+    bottom: -44px;
+    left: -49px;
+    width: 113px;
+    height: 122px;
+    z-index: 2;
+}
+
 @media screen and (max-width: 1024px) {
     .chat {
         bottom: -14px;
