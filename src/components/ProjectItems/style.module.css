@@ -1,9 +1,11 @@
 .wrapper {
     margin: 20px 0;
-    width: 100%;
     display: flex;
+    overflow: hidden;
     flex-direction: column;
+    padding: 0px 5%;
     align-items: center;
+    background-color: rgb(0, 0, 0);
 }
 
 .projectContainer {
@@ -75,7 +77,7 @@
     font-family: "Helvetica Now Display";
     list-style: none;
     padding: 0 0 0 12px;
-    font-size: clamp(12px, 1.1vw, 15px);
+    font-size: clamp(11px, 1.1vw, 15px);
     margin-top: 10px;
 }
 

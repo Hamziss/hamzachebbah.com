@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import cx from "classnames"
 import Image from "next/image"
@@ -59,7 +61,7 @@ const NavBar = () => {
 							</div>
 						</button>
 					</li>
-					<li className={classes.logo}>
+					<li onClick={handleToggle} className={classes.logo}>
 						<Link href="/" className={classes["link-logo"]}>
 							<a>
 								<Image src={Logo} alt="logo" />
@@ -69,14 +71,14 @@ const NavBar = () => {
 				</ul>
 
 				<ul className={classes["desktop-nav"]}>
-					<li>
+					<li onClick={handleToggle}>
 						<Link href="/">
 							<a className={classes["link-logo"]}>
 								<Image src={Logo} alt="logo" />
 							</a>
 						</Link>
 					</li>
-					<li>
+					<li onClick={handleToggle}>
 						<Link href="/projects">
 							<a
 								data-menu-name="Projects"
@@ -90,7 +92,7 @@ const NavBar = () => {
 							</a>
 						</Link>
 					</li>
-					<li>
+					<li onClick={handleToggle}>
 						<Link href="/about">
 							<a
 								data-menu-name="About"
@@ -101,7 +103,7 @@ const NavBar = () => {
 						</Link>
 					</li>
 
-					<li>
+					<li onClick={handleToggle}>
 						<Link href="/#skills">
 							<a
 								data-menu-name="Skills"
@@ -111,7 +113,7 @@ const NavBar = () => {
 							</a>
 						</Link>
 					</li>
-					<li>
+					<li onClick={handleToggle}>
 						<Link href="/">
 							<a
 								data-menu-name="Contact"
