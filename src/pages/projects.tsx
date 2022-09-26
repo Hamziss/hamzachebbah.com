@@ -1,7 +1,5 @@
 import ProjectItems from "src/components/ProjectItems"
 
-type Props = {}
-
-const Projects = (props: Props) => <ProjectItems />
+const Projects = () => <ProjectItems />
 
 export default Projects
