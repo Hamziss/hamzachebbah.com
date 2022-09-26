@@ -265,4 +265,16 @@
     .girafe {
         display: none;
     }
+    .panier {
+        top: -25px;
+        right: -18px;
+        width: 49px;
+        height: 52px;
+    }
+    .redbox {
+        bottom: -26px;
+        left: -15px;
+        width: 51px;
+        height: 59px;
+    }
 }

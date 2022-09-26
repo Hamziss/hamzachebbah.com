@@ -179,13 +179,9 @@ export const Projects: IprojectItem[] = [
 				color: "#7deb69",
 				docLink: "https://expressjs.com/",
 			},
+
 			{
-				name: "Formik",
-				color: "#f44336",
-				docLink: "https://formik.org/",
-			},
-			{
-				name: "Material-UI",
+				name: "MUI",
 				color: "#ffc107",
 				docLink: "https://material-ui.com/",
 			},
