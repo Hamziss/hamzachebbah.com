@@ -61,7 +61,7 @@ const NavBar = () => {
 							</div>
 						</button>
 					</li>
-					<li onClick={handleToggle} className={classes.logo}>
+					<li onClick={() => setIsActive(false)} className={classes.logo}>
 						<Link href="/" className={classes["link-logo"]}>
 							<a>
 								<Image src={Logo} alt="logo" />
