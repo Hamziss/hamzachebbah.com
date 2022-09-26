@@ -376,9 +376,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .heroBtn {
-        top: 250px;
-    }
     .animationContainer {
         top: 400px;
     }
@@ -409,7 +406,7 @@
 @media screen and (max-width: 550px) {
     .headContainer {
         width: 250px;
-        height: 350px;
+        height: 624px;
     }
     .animationContainer {
         width: unset;

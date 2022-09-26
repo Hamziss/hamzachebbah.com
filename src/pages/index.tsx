@@ -201,15 +201,22 @@ const Home: NextPage = () => (
 			</section>
 			<ContactSection />
 		</div>
-
+		<style>
+			{`
+	body {
+		overflow-x: hidden;
+	}
+`}
+		</style>
 		<Script
 			src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=61717fd08d472714903446f3"
 			type="text/javascript"
 			integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
 			crossOrigin="anonymous"
 		/>
+
 		<Script
-			src="https://uploads-ssl.webflow.com/61717fd08d472714903446f3/js/webflow.2672f2286.js"
+			src="https://uploads-ssl.webflow.com/61717fd08d472714903446f3/js/webflow.c1143100d.js"
 			type="text/javascript"
 		/>
 	</>
