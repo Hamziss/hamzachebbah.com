@@ -65,7 +65,7 @@ const AboutPage: NextPage = () => (
 					<p>
 						2- My favorite music to listen to while coding is a&nbsp;
 						<a
-							href="https://open.spotify.com/playlist/0qYcztUEKLdr4mbD2H7Sda"
+							href="https://open.spotify.com/playlist/0z32kEQ1At9FgE0ivDkX5F"
 							target="_blank"
 							rel="noreferrer"
 						>
