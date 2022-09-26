@@ -15,6 +15,16 @@ export default function Document() {
 					type="image/x-icon"
 					href="/images/favicon.svg"
 				/>
+				<meta charSet="UTF-8" />
+				<meta name="author" content="Hamza Chebbah" />
+				<meta
+					name="keywords"
+					content="Portfolio,hamza,React,ReactJS,NextJS,SQL,MongoDB,ExpressJS,typescript,Redis,Docker,Datascience"
+				/>
+				<meta
+					name="description"
+					content="Porfolio of Hamza Chebbah a Full Stack Developer and Data Scientist"
+				/>
 				<link href="/fonts/webfont.css" rel="stylesheet" />
 			</Head>
 			<body>
