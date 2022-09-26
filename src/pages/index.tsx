@@ -201,13 +201,7 @@ const Home: NextPage = () => (
 			</section>
 			<ContactSection />
 		</div>
-		<style>
-			{`
-	body {
-		overflow-x: hidden;
-	}
-`}
-		</style>
+
 		<Script
 			src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=61717fd08d472714903446f3"
 			type="text/javascript"

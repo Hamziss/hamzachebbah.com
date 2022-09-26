@@ -135,6 +135,7 @@
 
 .wrapper {
     display: flex;
+    overflow-x: hidden;
     flex-direction: column;
     padding: 0px 5%;
     align-items: center;
