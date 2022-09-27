@@ -84,7 +84,7 @@
 }
 
 .textSide>strong>span {
-    background: linear-gradient(180deg, #ffc107 -1.6%, #fa07ff 181.91%);
+    background: linear-gradient( 180deg, var(--main-brand-color) -1.6%, #fa07ff 181.91%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -112,7 +112,7 @@
 }
 
 .textSide>div>h2>span {
-    background: linear-gradient(180deg, #ffc107 -1.6%, #fa07ff 181.91%);
+    background: linear-gradient( 180deg, var(--main-brand-color) -1.6%, #fa07ff 181.91%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
