@@ -29,23 +29,21 @@ const NavBar = () => {
 		}
 	}
 
-	// eslint-disable-next-line consistent-return
-	useEffect(() => {
-		if (typeof window !== "undefined") {
-			window.addEventListener("scroll", controlNavbar)
 
-			return () => {
-				window.removeEventListener("scroll", controlNavbar)
-			}
+
+	useEffect(() => {
+		window.addEventListener("scroll", controlNavbar)
+
+		return () => {
+			window.removeEventListener("scroll", controlNavbar)
 		}
-		console.log("fdsfsdq")
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [lastScrollY])
 
 	return (
 		<div
-			className={`${classes["nav-container"]} ${show && classes.hidden} ${
-				isActive ? classes.active : ""
-			}`}
+			className={`${classes["nav-container"]} ${show && classes.hidden} ${isActive ? classes.active : ""
+				}`}
 		>
 			<nav className={classes.btn}>
 				<ul className={classes["mobile-nav"]}>
@@ -114,7 +112,7 @@ const NavBar = () => {
 						</Link>
 					</li>
 					<li onClick={handleToggle}>
-						<Link href="/">
+						<Link href="/contact">
 							<a
 								data-menu-name="Contact"
 								className={cx(classes.hovereffect, classes.scroll)}
