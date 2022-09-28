@@ -187,7 +187,7 @@ export const Projects: IprojectItem[] = [
 			},
 		],
 		image: KimerLite,
-		link: "https://kimberlite.herokuapp.com/",
+		link: "",
 
 		linkRepo: "",
 		itemImages: [
