@@ -210,7 +210,7 @@ const Home: NextPage = () => (
 		/>
 
 		<Script
-			src="https://uploads-ssl.webflow.com/61717fd08d472714903446f3/js/webflow.c1143100d.js"
+			src="https://uploads-ssl.webflow.com/61717fd08d472714903446f3/js/webflow.83c05fcec.js"
 			type="text/javascript"
 		/>
 	</>
