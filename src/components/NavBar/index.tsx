@@ -112,7 +112,7 @@ const NavBar = () => {
 						</Link>
 					</li>
 					<li onClick={handleToggle}>
-						<Link href="/contact">
+						<Link href="/">
 							<a
 								data-menu-name="Contact"
 								className={cx(classes.hovereffect, classes.scroll)}
