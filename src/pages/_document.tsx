@@ -25,7 +25,7 @@ export default function Document() {
 					name="description"
 					content="Porfolio of Hamza Chebbah a Full Stack Developer and Data Scientist"
 				/>
-				<link href="/fonts/webfont.css" rel="preload" />
+				<link href="/fonts/webfont.css" rel="stylesheet" />
 			</Head>
 			<body>
 				<Main />
