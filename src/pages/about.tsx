@@ -8,6 +8,7 @@ import react from "public/images/techs/react.png"
 import tailwind from "public/images/techs/tailwind.png"
 import trpc from "public/images/techs/trpc.png"
 import ts from "public/images/techs/ts.png"
+import zustand from "public/images/techs/zustand.png"
 import { Parallax } from "react-parallax"
 import { Cursor, Typewriter } from "react-simple-typewriter"
 import ContactSection from "src/components/ContactSection"
@@ -127,6 +128,9 @@ const AboutPage: NextPage = () => (
 				</a>
 				<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
 					<Image width="100" height="100" src={tailwind} />
+				</a>
+				<a href="https://zustand-demo.pmnd.rs" target="_blank" rel="noreferrer">
+					<Image width="120" height="100" src={zustand} />
 				</a>
 			</div>
 		</section>
