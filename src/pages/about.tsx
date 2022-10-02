@@ -101,19 +101,19 @@ const AboutPage: NextPage = () => (
 					target="_blank"
 					rel="noreferrer"
 				>
-					<Image width="100" height="100" src={ts} />
+					<Image placeholder="blur" width="100" height="100" src={ts} />
 				</a>
 				<a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-					<Image width="115" height="100" src={react} />
+					<Image placeholder="blur" width="115" height="100" src={react} />
 				</a>
 				<a href="https://nextjs.org/" target="_blank" rel="noreferrer">
-					<Image width="100" height="100" src={nextjs} />
+					<Image placeholder="blur" width="100" height="100" src={nextjs} />
 				</a>
 				<a href="https://expressjs.com/" target="_blank" rel="noreferrer">
-					<Image width="100" height="100" src={express} />
+					<Image placeholder="blur" width="100" height="100" src={express} />
 				</a>
 				<a href="https://www.docker.com/" target="_blank" rel="noreferrer">
-					<Image width="110" height="100" src={docker} />
+					<Image placeholder="blur" width="110" height="100" src={docker} />
 				</a>
 			</div>
 		</section>
@@ -121,16 +121,16 @@ const AboutPage: NextPage = () => (
 			<h2>Tech i like a lot:</h2>
 			<div className={classes.techContainer}>
 				<a href="https://nestjs.com/" target="_blank" rel="noreferrer">
-					<Image width="100" height="100" src={nestjs} />
+					<Image placeholder="blur" width="100" height="100" src={nestjs} />
 				</a>
 				<a href="https://trpc.io/" target="_blank" rel="noreferrer">
-					<Image width="85" height="100" src={trpc} />
+					<Image placeholder="blur" width="85" height="100" src={trpc} />
 				</a>
 				<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
-					<Image width="100" height="100" src={tailwind} />
+					<Image placeholder="blur" width="100" height="100" src={tailwind} />
 				</a>
 				<a href="https://zustand-demo.pmnd.rs" target="_blank" rel="noreferrer">
-					<Image width="120" height="100" src={zustand} />
+					<Image placeholder="blur" width="120" height="100" src={zustand} />
 				</a>
 			</div>
 		</section>
