@@ -11,10 +11,10 @@ const Footer = () => (
 				href="https://www.linkedin.com/in/hamza-chebbah-747b2022a/"
 				rel="noreferrer"
 			>
-				<Image placeholder="blur" src={linkedin} width="30" height="30" />
+				<Image src={linkedin} width="30" height="30" />
 			</a>
 			<a target="_blank" href="https://github.com/Hamziss" rel="noreferrer">
-				<Image placeholder="blur" src={github} width="30" height="30" />
+				<Image src={github} width="30" height="30" />
 			</a>
 		</div>
 		<p>&copy; {new Date().getFullYear()} | Chebbah Hamza</p>
