@@ -5,6 +5,7 @@ import drawilio from "public/images/Projects/drawilio.png"
 import girafe from "public/images/Projects/girafe.png"
 import KimerLite from "public/images/Projects/kimerLite.png"
 import Laptop from "public/images/Projects/Laptop.png"
+import notesbook from "public/images/Projects/notesbook.png"
 import panier from "public/images/Projects/panier.png"
 import peinture from "public/images/Projects/peinture.png"
 import pen from "public/images/Projects/pen.png"
@@ -188,7 +189,6 @@ export const Projects: IprojectItem[] = [
 		],
 		image: KimerLite,
 		link: "",
-
 		linkRepo: "",
 		itemImages: [
 			{
@@ -200,5 +200,41 @@ export const Projects: IprojectItem[] = [
 				imageTitle: "panier",
 			},
 		],
+	},
+	{
+		side: "normal",
+		name: "Notes Book",
+		description:
+			"Notes Book is a simple notes app that you can use to save your notes, it's built with NextJS ,tRPC, Typescript and tailwind, it's a fullstack app with RPC API.",
+		techStack: [
+			{
+				name: "NextJS",
+				color: "rgb(217 217 217)",
+				docLink: "https://nextjs.org/",
+			},
+			{
+				name: "tRPC",
+				color: "#6cbbf7",
+				docLink: "https://trpc.io/",
+			},
+			{
+				name: "Prisma",
+				color: "#f47429",
+				docLink: "https://www.prisma.io/",
+			},
+			{
+				name: "Tailwind",
+				color: "#38BDF8",
+				docLink: "https://tailwindcss.com/",
+			},
+			{
+				name: "Typescript",
+				color: "#2438cc",
+				docLink: "https://www.typescriptlang.org/",
+			},
+		],
+		image: notesbook,
+		link: "https://notes-book.vercel.app/",
+		linkRepo: "https://github.com/Hamziss/note-book",
 	},
 ]
