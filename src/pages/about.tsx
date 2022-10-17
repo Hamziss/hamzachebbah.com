@@ -23,6 +23,7 @@ const words = [
 	"A new JS framework just came out",
 	"Things aren’t always #000000 and #FFFFFF",
 	"tRPC is awesome",
+	"git gud",
 ]
 
 const AboutPage: NextPage = () => (
