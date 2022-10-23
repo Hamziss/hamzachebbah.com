@@ -32,7 +32,7 @@ const AboutPage: NextPage = () => (
 		<section className={classes.sectionHero}>
 			<div className={classes.ImageContainer}>
 				<div className={classes.bg}>
-					<Image src={bg} layout="fill" objectFit="cover" />
+					<Image src={bg} layout="fill" placeholder="blur" objectFit="cover" />
 				</div>
 				<Image
 					src={Hamza}
