@@ -1,4 +1,7 @@
 /* eslint-disable import/prefer-default-export */
+import bgdrawilio from "public/images/Projects/bgdrawilio.png"
+import bgtimer from "public/images/Projects/bgtimer.png"
+import bgtrinity from "public/images/Projects/bgtrinity.png"
 import chat from "public/images/Projects/Chat.png"
 import dragon from "public/images/Projects/dragon.png"
 import drawilio from "public/images/Projects/drawilio.png"
@@ -70,6 +73,7 @@ export const Projects: IprojectItem[] = [
 				imageTitle: "dragon",
 			},
 		],
+		bg: bgtimer,
 	},
 	{
 		side: "inverse",
@@ -121,6 +125,7 @@ export const Projects: IprojectItem[] = [
 				imageTitle: "peinture",
 			},
 		],
+		bg: bgdrawilio,
 	},
 	{
 		side: "normal",
@@ -153,6 +158,7 @@ export const Projects: IprojectItem[] = [
 				imageTitle: "laptop",
 			},
 		],
+		bg: bgtrinity,
 	},
 	{
 		side: "inverse",

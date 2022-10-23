@@ -18,4 +18,5 @@ export interface IprojectItem {
 	link?: string
 	linkRepo?: string
 	itemImages?: IitemImages[]
+	bg?: StaticImageData
 }

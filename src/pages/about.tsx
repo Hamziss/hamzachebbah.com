@@ -1,5 +1,6 @@
 import { NextPage } from "next"
 import Image from "next/image"
+import bg from "public/images/about/bg.png"
 import docker from "public/images/techs/docker.png"
 import express from "public/images/techs/express.png"
 import nestjs from "public/images/techs/nestjs.png"
@@ -30,6 +31,9 @@ const AboutPage: NextPage = () => (
 	<div className={classes.wrapper}>
 		<section className={classes.sectionHero}>
 			<div className={classes.ImageContainer}>
+				<div className={classes.bg}>
+					<Image src={bg} layout="fill" objectFit="cover" />
+				</div>
 				<Image
 					src={Hamza}
 					className={classes.hamza}

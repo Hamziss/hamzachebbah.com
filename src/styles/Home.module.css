@@ -1,422 +1,424 @@
 .container {
-    padding: 0 2rem;
+	padding: 0 2rem;
 }
 
 .headContainer {
-    width: 500px;
-    height: 600px;
-    position: relative;
+	width: 500px;
+	height: 600px;
+	position: relative;
 }
 
 .animationWrapper {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .objectContainer {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 12.5vh;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 12.5vh;
 }
 
 .animationContainer {
-    width: 400px;
-    position: absolute;
-    top: 600px;
-    display: flex;
-    z-index: 2;
-    flex-direction: column;
-    align-items: center;
+	width: 400px;
+	position: absolute;
+	top: 600px;
+	display: flex;
+	z-index: 2;
+	flex-direction: column;
+	align-items: center;
 }
 
 .object {
-    width: 150px;
-    height: 150px;
-    position: absolute;
+	width: 150px;
+	height: 150px;
+	position: absolute;
 }
 
 .hero {
-    position: absolute;
-    font-family: "Integral CF", sans-serif;
-    line-height: min(82px, 6vw);
-    font-size: min(90px, 6vw);
-    color: var(--main-brand-color);
-    left: 50%;
-    width: 95vw;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    top: 200px;
-    z-index: 2;
+	position: absolute;
+	font-family: "Integral CF", sans-serif;
+	line-height: min(82px, 6vw);
+	font-size: min(90px, 6vw);
+	color: var(--main-brand-color);
+	left: 50%;
+	width: 95vw;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	top: 200px;
+	z-index: 2;
 }
 
 .customBtn {
-    color: #fff;
-    padding: 10px 25px;
-    font-family: "Helvetica Now Display", sans-serif;
-    font-weight: 600;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
+	color: #fff;
+	padding: 10px 25px;
+	font-family: "Helvetica Now Display", sans-serif;
+	font-weight: 600;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
 }
 
 .heroBtn {
-    color: var(--main-brand-color);
-    border: 1px solid var(--main-brand-color);
-    box-shadow: 0 0 5px var(--main-brand-color), 0 0 5px var(--main-brand-color) inset;
-    z-index: 4;
-    position: absolute;
-    right: 50%;
-    top: 470px;
-    transform: translate(50%, -50%);
+	color: var(--main-brand-color);
+	border: 1px solid var(--main-brand-color);
+	box-shadow: 0 0 5px var(--main-brand-color),
+		0 0 5px var(--main-brand-color) inset;
+	z-index: 4;
+	position: absolute;
+	right: 50%;
+	top: 470px;
+	transform: translate(50%, -50%);
 }
 
 .heroBtn:after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 100%;
-    top: 0;
-    right: 0;
-    z-index: -1;
-    background: var(--main-brand-color);
-    box-shadow: 0 0 20px var(--main-brand-color);
-    transition: all 0.3s ease;
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 100%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	background: var(--main-brand-color);
+	box-shadow: 0 0 20px var(--main-brand-color);
+	transition: all 0.3s ease;
 }
 
 .heroBtn:hover {
-    color: #fff;
+	color: #fff;
 }
 
 .heroBtn:hover:after {
-    left: 0;
-    width: 100%;
+	left: 0;
+	width: 100%;
 }
 
 .showcase {
-    height: 1500px;
-    color: #fff;
-    padding: 0;
+	height: 1500px;
+	color: #fff;
+	padding: 0;
 }
 
 .videoContainer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 1500px;
-    overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1500px;
+	overflow: hidden;
 }
 
 .videoContainer video {
-    min-width: 100%;
-    min-height: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    object-fit: cover;
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
 }
 
 .videoContainer:after {
-    content: "";
-    z-index: 1;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.9);
-    position: absolute;
+	content: "";
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.9);
+	position: absolute;
 }
 
 .wrapper {
-    display: flex;
-    overflow: hidden;
-    flex-direction: column;
-    padding: 0px 5%;
-    align-items: center;
-    background-color: rgb(0, 0, 0);
+	display: flex;
+	overflow: hidden;
+	flex-direction: column;
+	padding: 0px 5%;
+	align-items: center;
+	background-color: rgb(0, 0, 0);
 }
 
 .aboutcontainer {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .about,
 .projects,
 .skills {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    width: 100%;
-    max-width: 1400px;
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	width: 100%;
+	max-width: 1400px;
 }
 
 .bgtext {
-    font-size: 130px;
-    font-family: "Integral CF";
-    color: rgba(255, 255, 255, 0);
-    height: 0px;
-    top: 10px;
-    width: 100%;
-    position: relative;
-    max-width: 1400px;
-    -webkit-text-stroke: 1px #ffffff26;
+	font-size: 130px;
+	font-family: "Integral CF";
+	color: rgba(255, 255, 255, 0);
+	height: 0px;
+	top: 10px;
+	width: 100%;
+	position: relative;
+	max-width: 1400px;
+	-webkit-text-stroke: 1px #ffffff26;
 }
 
 .about::after,
 .skills::after,
 .projects::after {
-    content: "";
-    width: 60%;
-    height: 1px;
-    bottom: 0;
-    margin-left: 17px;
-    position: relative;
-    display: block;
-    background-color: var(--main-brand-color);
-    top: 5px;
+	content: "";
+	width: 60%;
+	height: 1px;
+	bottom: 0;
+	margin-left: 17px;
+	position: relative;
+	display: block;
+	background-color: var(--main-brand-color);
+	top: 5px;
 }
 
 .title-aboutme,
 .title-projects,
 .title-skills {
-    font-family: "Integral CF";
-    color: var(--main-brand-color);
-    font-size: 35px;
-    white-space: nowrap;
-    text-shadow: 0px 0px 8px rgb(253 189 40 / 75%);
+	font-family: "Integral CF";
+	color: var(--main-brand-color);
+	font-size: 35px;
+	white-space: nowrap;
+	text-shadow: 0px 0px 8px rgb(253 189 40 / 75%);
 }
 
-.abouttext>p:first-child {
-    margin-top: 50px;
+.abouttext > p:first-child {
+	margin-top: 50px;
 }
 
 .abouttextcontainer,
 .skillstextcontainer {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 8vh;
-    max-width: 1400px;
-    color: #fff;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 8vh;
+	max-width: 1400px;
+	color: #fff;
 }
 
 .abouttext {
-    width: 60%;
-    font-family: "Helvetica Now Display", "sans-serif";
-    font-size: 1.25em;
+	width: 60%;
+	font-family: "Helvetica Now Display", "sans-serif";
+	font-size: 1.25em;
 }
 
 .abouttextcontainer .image {
-    width: 100%;
-    height: 535px;
-    z-index: 1;
-    display: flex;
-    max-width: 531px;
-    align-items: flex-start;
+	width: 100%;
+	height: 535px;
+	z-index: 1;
+	display: flex;
+	max-width: 531px;
+	align-items: flex-start;
 }
 
 .yellowtext {
-    color: var(--main-brand-color);
-    font-weight: bold;
+	color: var(--main-brand-color);
+	font-weight: bold;
 }
 
 .skillscontainer {
-    min-height: 70vh;
+	min-height: 70vh;
 }
 
 .skillstextcontainer {
-    margin-top: 4.7vw;
+	margin-top: 4.7vw;
 }
 
 .skilltext {
-    width: 60%;
-    font-family: "Helvetica Now Display", "sans-serif";
-    font-size: 1.25em;
-    margin-top: 60px;
+	width: 60%;
+	font-family: "Helvetica Now Display", "sans-serif";
+	font-size: 1.25em;
+	margin-top: 60px;
 }
 
 .canvaswrapper {
-    width: 100%;
-    display: flex;
-    margin-top: 35px;
-    max-width: 717px;
-    align-items: flex-start;
+	width: 100%;
+	display: flex;
+	margin-top: 35px;
+	max-width: 717px;
+	align-items: flex-start;
 }
 
 .projectscontainer {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
 .aboutbtn {
-    color: var(--main-brand-color);
-    position: relative;
-    border: 1px solid var(--main-brand-color);
-    box-shadow: 0 0 5px var(--main-brand-color), 0 0 5px var(--main-brand-color) inset;
-    transform: translate(50%, -50%);
+	color: var(--main-brand-color);
+	position: relative;
+	border: 1px solid var(--main-brand-color);
+	box-shadow: 0 0 5px var(--main-brand-color),
+		0 0 5px var(--main-brand-color) inset;
+	transform: translate(50%, -50%);
 }
 
 .aboutbtn:after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 100%;
-    top: 0;
-    right: 0;
-    z-index: -1;
-    background: var(--main-brand-color);
-    box-shadow: 0 0 20px var(--main-brand-color);
-    transition: all 0.3s ease;
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 100%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	background: var(--main-brand-color);
+	box-shadow: 0 0 20px var(--main-brand-color);
+	transition: all 0.3s ease;
 }
 
 .aboutbtn:hover {
-    color: #fff;
+	color: #fff;
 }
 
 .aboutbtn:hover:after {
-    left: 0;
-    width: 100%;
+	left: 0;
+	width: 100%;
 }
 
 .skilltext a {
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    color: var(--main-brand-color);
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	color: var(--main-brand-color);
 }
 
 .skilltext a:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--main-brand-color);
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+	content: "";
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: var(--main-brand-color);
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
 }
 
 .skilltext a:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+	transform: scaleX(1);
+	transform-origin: bottom left;
 }
 
 .ImageContainer {
-    position: sticky;
-    height: 21vw;
-    top: 150px;
-    width: 19%;
-    max-width: 450px;
-    max-height: 450px;
-    min-height: 300px;
-    min-width: 200px;
+	position: sticky;
+	height: 21vw;
+	top: 150px;
+	width: 19%;
+	max-width: 450px;
+	max-height: 450px;
+	min-height: 300px;
+	min-width: 200px;
 }
 
 .ImageContainer:after {
-    content: "";
-    z-index: 1;
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    top: 0;
-    left: 0;
-    background: rgba(255, 193, 7, 0.1);
-    position: absolute;
+	content: "";
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	top: 0;
+	left: 0;
+	background: rgba(255, 193, 7, 0.1);
+	position: absolute;
 }
 
 .bottomSquare {
-    position: absolute;
-    bottom: -34px;
-    left: -3vw;
-    width: 9vw;
+	position: absolute;
+	bottom: -34px;
+	left: -3vw;
+	width: 9vw;
 }
 
 .upperSquare {
-    position: absolute;
-    top: -34px;
-    right: -2vw;
-    width: 9vw;
+	position: absolute;
+	top: -34px;
+	right: -2vw;
+	width: 9vw;
 }
 
 .hamza {
-    z-index: 1;
+	z-index: 1;
 }
 
 .ImageContainer:hover:after {
-    display: none;
-    cursor: pointer;
-    transition: 0.3s;
+	display: none;
+	cursor: pointer;
+	transition: 0.3s;
 }
 
 @media screen and (max-width: 1024px) {
-    .animationContainer {
-        top: 500px;
-    }
-    .heroBtn {
-        top: 350px;
-    }
-    .showcase {
-        height: 1400px;
-    }
-    .videoContainer {
-        height: 1400px;
-    }
+	.animationContainer {
+		top: 500px;
+	}
+	.heroBtn {
+		top: 350px;
+	}
+	.showcase {
+		height: 1400px;
+	}
+	.videoContainer {
+		height: 1400px;
+	}
 }
 
 @media screen and (max-width: 768px) {
-    .animationContainer {
-        top: 400px;
-    }
-    .headContainer {
-        width: 400px;
-        height: 500px;
-    }
-    .abouttextcontainer,
-    .skillstextcontainer {
-        flex-direction: column;
-        align-items: center;
-    }
-    .abouttextcontainer .abouttext,
-    .skillstextcontainer .skilltext {
-        width: 100%;
-        font-size: 1.17em;
-        line-height: 25px;
-    }
-    .abouttextcontainer .image {
-        margin-top: 60px;
-    }
-    .bgtext {
-        font-size: clamp(50px, 20vw, 100px);
-        top: 15px;
-    }
+	.animationContainer {
+		top: 400px;
+	}
+	.headContainer {
+		width: 400px;
+		height: 500px;
+	}
+	.abouttextcontainer,
+	.skillstextcontainer {
+		flex-direction: column;
+		align-items: center;
+	}
+	.abouttextcontainer .abouttext,
+	.skillstextcontainer .skilltext {
+		width: 100%;
+		font-size: 1.17em;
+		line-height: 25px;
+	}
+	.abouttextcontainer .image {
+		margin-top: 60px;
+	}
+	.bgtext {
+		font-size: clamp(50px, 20vw, 100px);
+		top: 15px;
+	}
 }
 
 @media screen and (max-width: 550px) {
-    .headContainer {
-        width: 250px;
-        height: 624px;
-    }
-    .animationContainer {
-        width: unset;
-    }
-    .abouttextcontainer .image {
-        height: 394px;
-    }
-    .bgtext {
-        font-size: clamp(35px, 15vw, 94px);
-        top: 28px;
-    }
+	.headContainer {
+		width: 250px;
+		height: 624px;
+	}
+	.animationContainer {
+		width: unset;
+	}
+	.abouttextcontainer .image {
+		height: 394px;
+	}
+	.bgtext {
+		font-size: clamp(35px, 15vw, 94px);
+		top: 28px;
+	}
 }
