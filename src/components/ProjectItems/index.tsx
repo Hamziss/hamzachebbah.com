@@ -57,8 +57,12 @@ const ProjectItems = () => (
 					<TechStackList item={item} />
 				</div>
 				<ProjectImage item={item} />
-				<div className={item.side === "inverse" ? classes.bgleft : classes.bgContainer}>
-					<Image src={item.bg!} layout="fill" />
+				<div
+					className={
+						item.side === "inverse" ? classes.bgleft : classes.bgContainer
+					}
+				>
+					<Image placeholder="blur" src={item.bg!} layout="fill" />
 				</div>
 			</div>
 		))}
