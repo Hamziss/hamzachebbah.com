@@ -194,8 +194,8 @@ export const Projects: IprojectItem[] = [
 			},
 		],
 		image: KimerLite,
-		link: "",
-		linkRepo: "",
+		link: "http://kimberlitedz.com/",
+		linkRepo: "http://kimberlitedz.com/",
 		itemImages: [
 			{
 				url: redbox,
