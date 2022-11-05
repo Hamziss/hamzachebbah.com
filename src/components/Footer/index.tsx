@@ -8,7 +8,7 @@ const Footer = () => (
 		<div className={classes.socialContainer}>
 			<a
 				target="_blank"
-				href="https://www.linkedin.com/in/hamza-chebbah-747b2022a/"
+				href="https://www.linkedin.com/"
 				rel="noreferrer"
 			>
 				<Image src={linkedin} width="30" height="30" />
