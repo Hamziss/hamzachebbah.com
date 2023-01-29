@@ -25,6 +25,20 @@ export default function Document() {
 					name="description"
 					content="Porfolio of Hamza Chebbah a Full Stack Developer and Data Scientist"
 				/>
+				<link
+					rel="preload"
+					href="/fonts/HelveticaNowDisplay-Regular.woff"
+					as="font"
+					crossOrigin=""
+					type="font/woff"
+				/>
+				<link
+					rel="preload"
+					href="/fonts/IntegralCF-Bold.otf"
+					as="font"
+					crossOrigin=""
+					type="font/otf"
+				/>
 				<link href="/fonts/webfont.css" rel="stylesheet" />
 			</Head>
 			<body>
