@@ -104,10 +104,12 @@
 	width: 100%;
 	position: absolute;
 	height: 100%;
+	border-radius: 8px;
+	overflow: hidden;
 	z-index: 0;
 }
 
-.ImageContainer:after {
+/* .ImageContainer:after {
 	content: "";
 	z-index: 1;
 	height: 100%;
@@ -116,9 +118,9 @@
 	top: 0;
 	left: 0;
 	background: var(--main-brand-color);
-	opacity: 0.3;
+	opacity: 0.04;
 	position: absolute;
-}
+} */
 
 .ImageContainer:hover:after {
 	display: none;
@@ -206,20 +208,59 @@
 	height: 122px;
 	z-index: 2;
 }
+
+.location {
+	position: absolute;
+	top: -33px;
+	right: -27px;
+	width: 92px;
+	height: 89px;
+	z-index: 2;
+}
+
+.linkbmks {
+	position: absolute;
+	bottom: -30px;
+	left: -45px;
+	width: 81px;
+	height: 83px;
+	z-index: 2;
+}
+
+.folder {
+	position: absolute;
+	top: -18px;
+	right: -28px;
+	width: 57px;
+	transform: rotate(348deg);
+	height: 56px;
+	z-index: 2;
+}
+
+.folder2 {
+	position: absolute;
+	bottom: -30px;
+	left: -45px;
+	width: 81px;
+	height: 83px;
+	z-index: 2;
+}
+
 .bgContainer,
 .bgleft {
 	position: absolute;
 	top: -233px;
-
 	width: 1072px;
 	height: 865px;
 	max-height: 1000px;
 	z-index: 0;
 	max-width: 1300px;
 }
+
 .bgContainer {
 	right: -174px;
 }
+
 .bgleft {
 	left: -174px;
 }
@@ -228,7 +269,6 @@
 	.bgContainer,
 	.bgleft {
 		top: -253px;
-
 		width: 1072px;
 		height: 827px;
 	}

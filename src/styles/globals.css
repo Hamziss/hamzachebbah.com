@@ -1,61 +1,61 @@
 :root {
-    --main-brand-color: #ffc107;
-    --color-primary: #00a0e9;
+	--main-brand-color: #ffc107;
+	--color-primary: #00a0e9;
 }
 
 ::-webkit-scrollbar {
-    width: 7px;
+	width: 7px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #000000;
+	background: #000000;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #ffc10779;
-    transition: background-color 300ms ease-in;
+	background-color: #ffc10779;
+	transition: background-color 300ms ease-in;
 }
 
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html,
 body {
-    padding: 0;
-    margin: 0;
-    background-color: #000000;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen;
+	padding: 0;
+	margin: 0;
+	background-color: #000000;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 nav a {
-    padding: 0 40px;
+	padding: 0 40px;
 }
 
 @media (min-width: 768px) {
-    nav {
-        max-width: 800px;
-        margin: 0 auto;
-        height: 50px;
-        line-height: 45px;
-        font-size: 0;
-    }
-    nav a {
-        position: relative;
-        display: inline-block;
-        padding: 0 30px;
-        color: #fff;
-        font-size: 14px;
-        letter-spacing: -0.5px;
-        text-decoration: none;
-    }
+	nav {
+		max-width: 800px;
+		margin: 0 auto;
+		height: 50px;
+		line-height: 45px;
+		font-size: 0;
+	}
+	nav a {
+		position: relative;
+		display: inline-block;
+		padding: 0 30px;
+		color: #fff;
+		font-size: 14px;
+		letter-spacing: -0.5px;
+		text-decoration: none;
+	}
 }
