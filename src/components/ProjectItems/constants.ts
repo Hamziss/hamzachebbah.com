@@ -118,7 +118,7 @@ export const Projects: IprojectItem[] = [
 			},
 		],
 		image: drawilio,
-		link: "https://drawilio.netlify.com/",
+		link: "https://drawilio.netlify.app",
 		linkRepo: "https://www.github.com/Hamziss/drawilio",
 		itemImages: [
 			{
